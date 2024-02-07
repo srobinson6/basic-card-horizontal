@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    }
+
+
+body {
+    background-color: gray;
+    background-image: url('assets/background.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* the main container */
+
+.card{
+  width: 254px;
+  height: 441px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+  position: relative; top: 40px;
+  color: #27a59c;
+  
+}
+
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  position: relative; top: 40px;
+  color: #027691;
+} 
+
+h3{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  position: relative; top: 214px;
+}
+
+
+a:link, a:visited {
+  color: #0b8577;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 151, 206);
+}
+
+.particles {
+    position: absolute;
+    animation-name: particle-move;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes particle-move {
+  from {
+    position: absolute; top: 20px;
+    
+  }
+
+  to {
+    position: absolute; top: 200px
+  }
+}
+
+.anim1 {
+  /*
+   * Sets up the animation duration, timing-function (or easing)
+   * and iteration-count. Ensure you use the appropriate vendor-specific 
+   * prefixes as well as the official syntax for now. Remember, tools like 
+   * CSS Please are your friends!
+   */
+  -webkit-animation: anim1 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: anim1 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: anim1 4s linear infinite; /* Opera 12+ */
+          animation: anim1 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+}
+
+@-webkit-keyframes anim1 {
+  from { -webkit-transform: rotate(0deg) translateX(4px) rotate(0deg); }
+  to   { -webkit-transform: rotate(-360deg) translateX(4px) rotate(360deg); }
+}
+
+@-moz-keyframes anim1 {
+  from { -moz-transform: rotate(0deg) translateX(4px) rotate(0deg); }
+  to   { -moz-transform: rotate(-360deg) translateX(4px) rotate(360deg); }
+}
+
+@-o-keyframes anim1 {
+  from { -o-transform: rotate(0deg) translateX(4px) rotate(0deg); }
+  to   { -o-transform: rotate(-360deg) translateX(4px) rotate(360deg); }
+}
+
+@keyframes anim1 {
+  from { transform: rotate(0deg) translateX(4px) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(4px) rotate(360deg); }
+}
+
+.anim2 {
+  -webkit-animation: anim2 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: anim2 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: anim2 4s linear infinite; /* Opera 12+ */
+          animation: anim2 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+}
+
+@-webkit-keyframes anim2 {
+  from { -webkit-transform: rotate(0deg) translateX(15px) rotate(0deg); }
+  to   { -webkit-transform: rotate(-360deg) translateX(15px) rotate(360deg); }
+}
+
+@-moz-keyframes anim2 {
+  from { -moz-transform: rotate(0deg) translateX(15px) rotate(0deg); }
+  to   { -moz-transform: rotate(-360deg) translateX(15px) rotate(360deg); }
+}
+
+@-o-keyframes anim2 {
+  from { -o-transform: rotate(0deg) translateX(15px) rotate(0deg); }
+  to   { -o-transform: rotate(-360deg) translateX(15px) rotate(360deg); }
+}
+
+@keyframes anim2 {
+  from { transform: rotate(0deg) translateX(15px) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(15px) rotate(360deg); }
+}
+
+
+.anim3 {
+  -webkit-animation: anim3 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: anim3 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: anim3 4s linear infinite; /* Opera 12+ */
+          animation: anim3 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+}
+
+@-webkit-keyframes anim3 {
+  from { -webkit-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-moz-keyframes anim3 {
+  from { -moz-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-o-keyframes anim3 {
+  from { -o-transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@keyframes anim3 {
+  from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+
+.anim4 {
+  -webkit-animation: anim4 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: anim4 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: anim4 4s linear infinite; /* Opera 12+ */
+          animation: anim4 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+}
+
+@-webkit-keyframes anim4 {
+  from { -webkit-transform: rotate(0deg) translateX(6px) rotate(0deg); }
+  to   { -webkit-transform: rotate(-360deg) translateX(6px) rotate(360deg); }
+}
+
+@-moz-keyframes anim4 {
+  from { -moz-transform: rotate(0deg) translateX(6px) rotate(0deg); }
+  to   { -moz-transform: rotate(-360deg) translateX(6px) rotate(360deg); }
+}
+
+@-o-keyframes anim4 {
+  from { -o-transform: rotate(0deg) translateX(6px) rotate(0deg); }
+  to   { -o-transform: rotate(-360deg) translateX(6px) rotate(360deg); }
+}
+
+@keyframes anim4 {
+  from { transform: rotate(0deg) translateX(6px) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(6px) rotate(360deg); }
+}
+
+.anim5 {
+  -webkit-animation: anim5 4s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: anim5 4s linear infinite; /* Firefox 5-15 */
+       -o-animation: anim5 4s linear infinite; /* Opera 12+ */
+          animation: anim5 4s linear infinite; /* Chrome, Firefox 16+, 
+                                                    IE 10+, Safari 5 */
+  
+}
+
+@-webkit-keyframes anim5 {
+  from { -webkit-transform: rotate(0deg) translateX(7px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(7px) rotate(-360deg); }
+}
+
+@-moz-keyframes anim5 {
+  from { -moz-transform: rotate(0deg) translateX(7px) rotate(0deg); }
+  to   { -moz-transform: rotate(360deg) translateX(7px) rotate(-360deg); }
+}
+
+@-o-keyframes anim5 {
+  from { -o-transform: rotate(0deg) translateX(7px) rotate(0deg); }
+  to   { -o-transform: rotate(360deg) translateX(7px) rotate(-360deg); }
+}
+
+@keyframes anim5 {
+  from { transform: rotate(0deg) translateX(7px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(7px) rotate(-360deg); }
+}
