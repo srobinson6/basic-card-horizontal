@@ -4,7 +4,30 @@
     box-sizing: border-box;
     /* border: 1px solid blue; */
     }
-
+/* specific styling to scale elements down for mobile */
+    @media only screen and (max-width: 900px) {
+      .card{
+        width: 400px;
+        height: 200px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+      }
+      
+      h1{
+        font-size: 40px;
+      }
+      
+      h2{
+        font-size: 25px;
+      } 
+      
+      h3{
+        font-size:20px;
+      }
+      }
 
 body {
     background-color: gray;
@@ -12,7 +35,7 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
 }
-/* the main container */
+/* the main card container */
 
 .card{
   width: 441px;
