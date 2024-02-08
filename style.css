@@ -7,8 +7,7 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/background.png');
+    background-color: rgba(195, 99, 233, 0.382);
     background-repeat: no-repeat;
     overflow: hidden;
 }
