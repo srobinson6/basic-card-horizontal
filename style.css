@@ -71,8 +71,8 @@ p2{
   font-style: normal;
   text-align: left;
   position: relative; 
-  top: 125px;
-  left: 80px;
+  bottom: -125px;
+  left: 60px;
   font-size: 15px;
   color: 451C1B;
 }
