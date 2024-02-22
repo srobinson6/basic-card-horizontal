@@ -52,7 +52,7 @@ h4{
   color: 451C1B;
 } 
 
-h3{
+p{
   margin-right: 8px;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 300;
@@ -64,7 +64,18 @@ h3{
   color: 451C1B;
 }
 
-
+p2{
+  margin-left: 8px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  position: relative; 
+  top: 125px;
+  left: 80px;
+  font-size: 15px;
+  color: 451C1B;
+}
 
 /* How links are styled on page load and also after a link has been visited */
 a:link, a:visited {
@@ -100,7 +111,12 @@ a:hover {
     top: 12px;
   } 
   
-  h3{
+  p{
+    font-size:4px;
+    top: 60px;
+  }
+
+  p2{
     font-size:4px;
     top: 60px;
   }
